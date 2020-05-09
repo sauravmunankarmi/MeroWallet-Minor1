@@ -14,9 +14,9 @@ public class RecordsAdapter extends RecyclerView.Adapter<RecordsAdapter.ExampleV
     private ArrayList<activity_recordsview> mRecordsList;
     private OnItemClickListener mListener;
 
-    public interface onItemClickListener {
-        void onItemClick(int position);
-    }
+//    public interface onItemClickListener {
+//        void onItemClick(int position);
+//    }
 
 
     public interface OnItemClickListener {

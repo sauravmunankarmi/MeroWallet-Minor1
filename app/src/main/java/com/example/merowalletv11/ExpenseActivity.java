@@ -332,7 +332,7 @@ public class ExpenseActivity extends AppCompatActivity {
     }
 */
 
-    void validateExpense(View view){ {
+   public void validateExpense(View view){ {
 
         editExpense = findViewById(R.id.expense);
         exp = editExpense.getEditText().getText().toString();
